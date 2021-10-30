@@ -53,9 +53,4 @@ public class Guide {
 		System.out.println("캐릭터가 사망하였습니다.");
 		System.out.println("다시 시작해주세요.");
 	}
-	
-	void enforce() {
-		System.out.println("강화소에 들어왔습니다.");
-		System.out.println("강화 실패시 체력이 20씩 깎입니다.");
-	}
 }

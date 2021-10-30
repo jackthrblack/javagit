@@ -59,7 +59,6 @@ public class GameService {
 
 	List<ChterDTO> fight(List<MonsterDTO> mList, List<ChterDTO> cList) {
 
-		gd.figth();
 		int sel2 = in.nextInt();
 
 		switch (sel2) {
