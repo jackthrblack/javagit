@@ -24,7 +24,7 @@ public class GameMain {
 			gs.chStatus(cList);
 			boolean run = true;
 
-			int mon = (int) (Math.random() * 1) + 1;
+			int mon = (int) (Math.random() * 5) + 1;
 
 			while (run) {
 				System.out.println("1:내정보||2:돌아다니기||3:힌트");

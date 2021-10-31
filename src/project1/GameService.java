@@ -5,6 +5,7 @@ import java.util.*;
 public class GameService {
 
 	Scanner in = new Scanner(System.in);
+	
 	Guide gd = new Guide();
 
 	List<ChterDTO> chCreate(List<ChterDTO> cList) {
@@ -58,7 +59,8 @@ public class GameService {
 	}
 
 	List<ChterDTO> fight(List<MonsterDTO> mList, List<ChterDTO> cList) {
-
+		
+		gd.figth()
 		int sel2 = in.nextInt();
 
 		switch (sel2) {
@@ -95,7 +97,6 @@ public class GameService {
 					} else if (cList.get(0).getHp() <= 0) {
 						gd.cEnd();
 						figth = false;
-
 					}
 				} else if (figth2 == 2) {
 					int chHpp = 0;
